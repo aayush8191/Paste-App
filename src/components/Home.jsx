@@ -18,7 +18,7 @@ const Home = () => {
       toast.error("Both title and content are required.");
       return;
     }
-    
+
     const paste = {
       title: title,
       content: value,
